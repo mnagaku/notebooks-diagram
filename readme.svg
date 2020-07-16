@@ -1,0 +1,81 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkspace="http://www.inkscape.org/namespaces/inkscape" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 856 610">
+  <defs id="defs_block">
+    <filter height="1.504" id="filter_blur" inkspace:collect="always" width="1.1575" x="-0.07875" y="-0.252">
+      <feGaussianBlur id="feGaussianBlur3780" inkspace:collect="always" stdDeviation="4.2"/>
+    </filter>
+  </defs>
+  <title>blockdiag</title>
+  <desc>blockdiag {
+    node_width = 200;
+    node_height = 150;
+    
+    stage1 -&gt; stage2
+    stage2 -&gt; stage3
+
+    stage1 -&gt; stage1check
+    stage2 -&gt; stage2check
+    stage3 -&gt; stage3check
+
+    stage1check -&gt; stage1recovery1
+    stage1check -&gt; stage1recovery2
+
+    group {
+        label = "&#27491;&#24120;&#31995;"
+        orientation = portrait
+        stage1
+        stage2
+        stage3
+    }
+    group {
+        label = "&#38556;&#23475;&#35519;&#26619;&#31995;"
+        stage1check
+        stage2check
+        stage3check
+    }
+    group {
+        label = "&#38556;&#23475;&#23550;&#20966;&#31995;"
+        stage1recovery1
+        stage1recovery2
+    }
+}
+</desc>
+  <rect fill="rgb(243,152,0)" height="550" style="filter:url(#filter_blur)" width="216" x="56" y="30"/>
+  <rect fill="rgb(243,152,0)" height="550" style="filter:url(#filter_blur)" width="216" x="320" y="30"/>
+  <rect fill="rgb(243,152,0)" height="360" style="filter:url(#filter_blur)" width="216" x="584" y="30"/>
+  <rect fill="rgb(0,0,0)" height="150" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="200" x="67" y="46"/>
+  <rect fill="rgb(0,0,0)" height="150" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="200" x="67" y="236"/>
+  <rect fill="rgb(0,0,0)" height="150" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="200" x="67" y="426"/>
+  <rect fill="rgb(0,0,0)" height="150" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="200" x="331" y="46"/>
+  <rect fill="rgb(0,0,0)" height="150" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="200" x="331" y="236"/>
+  <rect fill="rgb(0,0,0)" height="150" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="200" x="331" y="426"/>
+  <rect fill="rgb(0,0,0)" height="150" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="200" x="595" y="46"/>
+  <rect fill="rgb(0,0,0)" height="150" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="200" x="595" y="236"/>
+  <rect fill="rgb(255,255,255)" height="150" stroke="rgb(0,0,0)" width="200" x="64" y="40"/>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="9" font-style="normal" font-weight="normal" font-anchor="middle" x="66" width="196" y="115">- &#20309;&#12363;&#28310;&#20633;&#12377;&#12427;</text><text fill="rgb(0,0,0)" font-family="sans-serif" font-size="9" font-style="italic" font-weight="normal" font-anchor="middle" x="66" width="196" y="91">&#12371;&#12398;&#12473;&#12486;&#12540;&#12472;1&#12398;&#27010;&#35201;&#12434;&#35500;&#26126;&#12377;&#12427;&#12290;</text><a xlink:href="stage1.ipynb"><text fill="rgb(0,0,0)" font-family="sans-serif" font-size="14" font-style="normal" font-weight="bold" font-anchor="middle" x="66" width="196" y="67.0">&#12473;&#12486;&#12540;&#12472;1</text></a><rect fill="rgb(255,255,255)" height="150" stroke="rgb(0,0,0)" width="200" x="64" y="230"/>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="9" font-style="normal" font-weight="normal" font-anchor="middle" x="66" width="196" y="305">- &#20309;&#12363;&#12364;&#27083;&#31689;&#12373;&#12428;&#12427;</text><text fill="rgb(0,0,0)" font-family="sans-serif" font-size="9" font-style="italic" font-weight="normal" font-anchor="middle" x="66" width="196" y="281">&#12371;&#12398;&#12473;&#12486;&#12540;&#12472;2&#12398;&#27010;&#35201;&#12434;&#35500;&#26126;&#12377;&#12427;&#12290;</text><a xlink:href="stage2.ipynb"><text fill="rgb(0,0,0)" font-family="sans-serif" font-size="14" font-style="normal" font-weight="bold" font-anchor="middle" x="66" width="196" y="257.0">&#12473;&#12486;&#12540;&#12472;2</text></a><rect fill="rgb(255,255,255)" height="150" stroke="rgb(0,0,0)" width="200" x="64" y="420"/>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="9" font-style="normal" font-weight="normal" font-anchor="middle" x="66" width="196" y="495">- &#24460;&#22987;&#26411;</text><text fill="rgb(0,0,0)" font-family="sans-serif" font-size="9" font-style="italic" font-weight="normal" font-anchor="middle" x="66" width="196" y="471">&#12371;&#12398;&#12473;&#12486;&#12540;&#12472;3&#12398;&#27010;&#35201;&#12434;&#35500;&#26126;&#12377;&#12427;&#12290;</text><a xlink:href="stage3.ipynb"><text fill="rgb(0,0,0)" font-family="sans-serif" font-size="14" font-style="normal" font-weight="bold" font-anchor="middle" x="66" width="196" y="447.0">&#12473;&#12486;&#12540;&#12472;3</text></a><rect fill="rgb(255,255,255)" height="150" stroke="rgb(0,0,0)" width="200" x="328" y="40"/>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="9" font-style="normal" font-weight="normal" font-anchor="middle" x="330" width="196" y="115">- &#12356;&#12429;&#12356;&#12429;&#35519;&#12409;&#12427;</text><text fill="rgb(0,0,0)" font-family="sans-serif" font-size="9" font-style="italic" font-weight="normal" font-anchor="middle" x="330" width="196" y="91"></text><a xlink:href="stage1check.ipynb"><text fill="rgb(0,0,0)" font-family="sans-serif" font-size="14" font-style="normal" font-weight="bold" font-anchor="middle" x="330" width="196" y="67.0">&#12473;&#12486;&#12540;&#12472;1&#38556;&#23475;&#26178;&#12398;&#35519;&#26619;</text></a><rect fill="rgb(255,255,255)" height="150" stroke="rgb(0,0,0)" width="200" x="328" y="230"/>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="9" font-style="normal" font-weight="normal" font-anchor="middle" x="330" width="196" y="305">- &#12356;&#12429;&#12356;&#12429;&#35519;&#12409;&#12427;</text><text fill="rgb(0,0,0)" font-family="sans-serif" font-size="9" font-style="italic" font-weight="normal" font-anchor="middle" x="330" width="196" y="281"></text><a xlink:href="stage2check.ipynb"><text fill="rgb(0,0,0)" font-family="sans-serif" font-size="14" font-style="normal" font-weight="bold" font-anchor="middle" x="330" width="196" y="257.0">&#12473;&#12486;&#12540;&#12472;2&#38556;&#23475;&#26178;&#12398;&#35519;&#26619;</text></a><rect fill="rgb(255,255,255)" height="150" stroke="rgb(0,0,0)" width="200" x="328" y="420"/>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="9" font-style="normal" font-weight="normal" font-anchor="middle" x="330" width="196" y="495">- &#12356;&#12429;&#12356;&#12429;&#35519;&#12409;&#12427;</text><text fill="rgb(0,0,0)" font-family="sans-serif" font-size="9" font-style="italic" font-weight="normal" font-anchor="middle" x="330" width="196" y="471"></text><a xlink:href="stage3check.ipynb"><text fill="rgb(0,0,0)" font-family="sans-serif" font-size="14" font-style="normal" font-weight="bold" font-anchor="middle" x="330" width="196" y="447.0">&#12473;&#12486;&#12540;&#12472;3&#38556;&#23475;&#26178;&#12398;&#35519;&#26619;</text></a><rect fill="rgb(255,255,255)" height="150" stroke="rgb(0,0,0)" width="200" x="592" y="40"/>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="9" font-style="normal" font-weight="normal" font-anchor="middle" x="594" width="196" y="137">- &#27835;&#12387;&#12383;&#12371;&#12392;&#12434;&#30906;&#35469;&#12377;&#12427;</text><text fill="rgb(0,0,0)" font-family="sans-serif" font-size="9" font-style="normal" font-weight="normal" font-anchor="middle" x="594" width="196" y="126">- &#12493;&#12483;&#12488;&#12527;&#12540;&#12463;&#12434;&#30452;&#12377;</text><text fill="rgb(0,0,0)" font-family="sans-serif" font-size="9" font-style="normal" font-weight="normal" font-anchor="middle" x="594" width="196" y="115">- &#29366;&#27841;&#12434;&#30906;&#35469;&#12377;&#12427;</text><text fill="rgb(0,0,0)" font-family="sans-serif" font-size="9" font-style="italic" font-weight="normal" font-anchor="middle" x="594" width="196" y="91"></text><a xlink:href="stage1recovery1.ipynb"><text fill="rgb(0,0,0)" font-family="sans-serif" font-size="14" font-style="normal" font-weight="bold" font-anchor="middle" x="594" width="196" y="59">&#12473;&#12486;&#12540;&#12472;1&#12398;&#38556;&#23475;&#23550;&#24540;1&#65306;</text><text fill="rgb(0,0,0)" font-family="sans-serif" font-size="14" font-style="normal" font-weight="bold" font-anchor="middle" x="594" width="196" y="75">&#12493;&#12483;&#12488;&#12527;&#12540;&#12463;&#12398;&#28310;&#20633;&#12364;&#12391;&#12365;&#12394;&#12356;</text></a><rect fill="rgb(255,255,255)" height="150" stroke="rgb(0,0,0)" width="200" x="592" y="230"/>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="9" font-style="normal" font-weight="normal" font-anchor="middle" x="594" width="196" y="327">- &#27835;&#12387;&#12383;&#12371;&#12392;&#12434;&#30906;&#35469;&#12377;&#12427;</text><text fill="rgb(0,0,0)" font-family="sans-serif" font-size="9" font-style="normal" font-weight="normal" font-anchor="middle" x="594" width="196" y="316">- &#12513;&#12514;&#12522;&#12434;&#35299;&#25918;&#12377;&#12427;</text><text fill="rgb(0,0,0)" font-family="sans-serif" font-size="9" font-style="normal" font-weight="normal" font-anchor="middle" x="594" width="196" y="305">- &#29366;&#27841;&#12434;&#30906;&#35469;&#12377;&#12427;</text><text fill="rgb(0,0,0)" font-family="sans-serif" font-size="9" font-style="italic" font-weight="normal" font-anchor="middle" x="594" width="196" y="281"></text><a xlink:href="stage1recovery2.ipynb"><text fill="rgb(0,0,0)" font-family="sans-serif" font-size="14" font-style="normal" font-weight="bold" font-anchor="middle" x="594" width="196" y="249">&#12473;&#12486;&#12540;&#12472;1&#12398;&#38556;&#23475;&#23550;&#24540;2&#65306;</text><text fill="rgb(0,0,0)" font-family="sans-serif" font-size="14" font-style="normal" font-weight="bold" font-anchor="middle" x="594" width="196" y="265">&#12513;&#12514;&#12522;&#12364;&#36275;&#12426;&#12394;&#12356;</text></a><path d="M 164 190 L 164 222" fill="none" stroke="rgb(0,0,0)"/>
+  <polygon fill="rgb(0,0,0)" points="164,229 160,222 168,222 164,229" stroke="rgb(0,0,0)"/>
+  <path d="M 264 115 L 320 115" fill="none" stroke="rgb(0,0,0)"/>
+  <polygon fill="rgb(0,0,0)" points="327,115 320,111 320,119 327,115" stroke="rgb(0,0,0)"/>
+  <path d="M 164 380 L 164 412" fill="none" stroke="rgb(0,0,0)"/>
+  <polygon fill="rgb(0,0,0)" points="164,419 160,412 168,412 164,419" stroke="rgb(0,0,0)"/>
+  <path d="M 264 305 L 320 305" fill="none" stroke="rgb(0,0,0)"/>
+  <polygon fill="rgb(0,0,0)" points="327,305 320,301 320,309 327,305" stroke="rgb(0,0,0)"/>
+  <path d="M 264 495 L 320 495" fill="none" stroke="rgb(0,0,0)"/>
+  <polygon fill="rgb(0,0,0)" points="327,495 320,491 320,499 327,495" stroke="rgb(0,0,0)"/>
+  <path d="M 528 115 L 584 115" fill="none" stroke="rgb(0,0,0)"/>
+  <polygon fill="rgb(0,0,0)" points="591,115 584,111 584,119 591,115" stroke="rgb(0,0,0)"/>
+  <path d="M 528 115 L 560 115" fill="none" stroke="rgb(0,0,0)"/>
+  <path d="M 560 115 L 560 305" fill="none" stroke="rgb(0,0,0)"/>
+  <path d="M 560 305 L 584 305" fill="none" stroke="rgb(0,0,0)"/>
+  <polygon fill="rgb(0,0,0)" points="591,305 584,301 584,309 591,305" stroke="rgb(0,0,0)"/>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="33" x="164.5" y="36">&#27491;&#24120;&#31995;</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="55" x="428.5" y="36">&#38556;&#23475;&#35519;&#26619;&#31995;</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="55" x="692.5" y="36">&#38556;&#23475;&#23550;&#20966;&#31995;</text>
+</svg>
